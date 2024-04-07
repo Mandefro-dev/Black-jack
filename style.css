@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#dealer-images img {
+  width: 125px;
+
+  margin: 1px;
+}
+#Your-images img {
+  height: 175px;
+  width: 125px;
+
+  margin: 1px;
+}
+h2 {
+  color: white;
+}
+#Hit {
+  color: darkblue;
+  font-weight: 700;
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  border: 4px solid gray;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  background: gray;
+  /* background-color: darkslategrey; */
+}
+#stay {
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  color: darkblue;
+  border: 4px solid gray;
+  border-radius: 10px;
+  background: gray;
+  transition: 0.5s ease;
+  margin-left: 15px;
+}
+button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px gray;
+  transition: 0.5s ease;
+}
+#gameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: fixed;
+  width: 80%;
+  height: 80%;
+  /* display: flex;
+  flex-direction: column; */
+  background-color: darkslategrey;
+  text-align: center;
+  margin: 10px 10% 10px 10%;
+  box-shadow: 0 0 110px gray;
+
+  padding-bottom: 15px;
+  border: 10px solid gray;
+  border-radius: 20px;
+}
+#result {
+  font-size: 20px;
+  color: white;
+}
+/* .button {
+  right: 0;
+  position: fixed;
+  margin-right: 140px;
+  margin-top: -60px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+} */
+/* section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  height: 500px;
+  width: 70%;
+  margin-left: 15%;
+  padding-bottom: 100px;
+} */
