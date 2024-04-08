@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDMNh2rREdRQA16GguGbZ651fAyXJRRwRMxjbPHhZCQ&s");
 }
 #dealer-images img {
   width: 125px;
@@ -52,7 +53,7 @@ button:hover {
   gap: 50px;
   position: fixed;
   width: 80%;
-  height: 80%;
+  height: 90%;
   /* display: flex;
   flex-direction: column; */
   background-color: darkslategrey;
