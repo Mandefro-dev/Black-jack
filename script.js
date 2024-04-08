@@ -13,6 +13,7 @@ window.onload = function () {
   shuffle();
   start();
 };
+
 // function reset() {
 //   document.getElementById("gameContainer").innerHTML = "<p>Game content</p>";
 // }
@@ -36,6 +37,7 @@ function build() {
   ];
 
   let types = ["C", "D", "H", "S"];
+
   deck = [];
   for (let i = 0; i < types.length; i++) {
     for (let j = 0; j < values.length; j++) {
